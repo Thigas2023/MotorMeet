@@ -236,6 +236,17 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/label5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Sexo"
+                android:textSize="16sp"
+                android:typeface="normal" />
+
             <RadioGroup
                 android:id="@+id/radiogroup"
                 android:layout_width="match_parent"
