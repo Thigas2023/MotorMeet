@@ -86,7 +86,7 @@
                         android:id="@+id/audiimg1"
                         android:layout_width="132dp"
                         android:layout_height="66dp"
-                        android:src="@drawable/Audi_A5"
+                        android:src="@drawable/audi_a5"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -179,7 +179,7 @@
                         android:id="@+id/cclassimg1"
                         android:layout_width="132dp"
                         android:layout_height="66dp"
-                        android:src="@drawable/C_class"
+                        android:src="@drawable/c_class"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -254,7 +254,7 @@
                         android:id="@+id/bentleyimg1"
                         android:layout_width="132dp"
                         android:layout_height="66dp"
-                        android:src="@drawable/F_type"
+                        android:src="@drawable/f_type"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -274,7 +274,7 @@
                             android:layout_width="36dp"
                             android:layout_height="16dp"
                             android:layout_marginBottom="4dp"
-                            android:src="@drawable/Jaguar_Logo" />
+                            android:src="@drawable/jaguar_logo" />
 
                         <TextView
                             android:id="@+id/namecar1_1"

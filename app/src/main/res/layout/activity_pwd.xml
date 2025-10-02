@@ -51,7 +51,7 @@
             android:layout_height="212dp"
             android:layout_marginBottom="32dp"
             android:contentDescription="Carro"
-            app:srcCompat="@drawable/Carro_2" />
+            app:srcCompat="@drawable/carro_2" />
 
         <LinearLayout
             android:id="@+id/header"

@@ -34,7 +34,7 @@
                 android:layout_marginBottom="8dp"
                 android:scaleX="1.5"
                 android:scaleY="1.5"
-                android:src="@drawable/Ferrari_2" />
+                android:src="@drawable/ferrari_2" />
 
             <LinearLayout
                 android:id="@+id/header2"

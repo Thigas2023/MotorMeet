@@ -76,14 +76,14 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/avatar"
+                    android:background="@drawable/profile"
                     android:clipToOutline="true"
                     android:scaleType="centerCrop"
                     android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/Avatar"
+                    app:srcCompat="@drawable/avatar"
                     tools:targetApi="31" />
 
                 <LinearLayout
@@ -169,14 +169,14 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:adjustViewBounds="true"
-                    android:background="@drawable/avatar"
+                    android:background="@drawable/profile"
                     android:clipToOutline="true"
                     android:scaleType="centerCrop"
                     android:textAlignment="center"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/Avatar"
+                    app:srcCompat="@drawable/avatar"
                     tools:targetApi="31" />
 
                 <LinearLayout
