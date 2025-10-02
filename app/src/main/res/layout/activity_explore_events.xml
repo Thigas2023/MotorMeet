@@ -127,7 +127,12 @@
                         android:id="@+id/body"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="32dp">
+                        android:paddingStart="32dp"
+                        android:paddingLeft="32dp"
+                        android:paddingTop="24dp"
+                        android:paddingEnd="32dp"
+                        android:paddingRight="32dp"
+                        android:paddingBottom="24dp">
 
                         <LinearLayout
                             android:id="@+id/info"
@@ -233,7 +238,12 @@
                         android:id="@+id/body1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="32dp">
+                        android:paddingStart="32dp"
+                        android:paddingLeft="32dp"
+                        android:paddingTop="24dp"
+                        android:paddingEnd="32dp"
+                        android:paddingRight="32dp"
+                        android:paddingBottom="24dp">
 
                         <LinearLayout
                             android:id="@+id/info1"
@@ -337,7 +347,12 @@
                         android:id="@+id/body2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="32dp">
+                        android:paddingStart="32dp"
+                        android:paddingLeft="32dp"
+                        android:paddingTop="24dp"
+                        android:paddingEnd="32dp"
+                        android:paddingRight="32dp"
+                        android:paddingBottom="24dp">
 
                         <LinearLayout
                             android:id="@+id/info2"
