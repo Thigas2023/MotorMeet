@@ -105,7 +105,7 @@
                     android:typeface="normal" />
 
                 <EditText
-                    android:id="@+id/phone"
+                    android:id="@+id/eventnome"
                     style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

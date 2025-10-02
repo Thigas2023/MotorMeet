@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Adicionando carro"
+                    android:text="Criando seu evento"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:typeface="normal" />
@@ -63,13 +63,180 @@
                 android:orientation="vertical"
                 android:padding="24dp">
 
+                <LinearLayout
+                    android:id="@+id/inputform3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Qual a data e horário?"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <EditText
+                        android:id="@+id/data"
+                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/date_border"
+                        android:fontFamily="sans-serif"
+                        android:hint="--/--/-- 00:00"
+                        android:inputType="date"
+                        android:paddingStart="12dp"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="12dp"
+                        android:paddingRight="12dp"
+                        android:paddingBottom="8dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/inputform1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Qual o local do evento?"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <EditText
+                        android:id="@+id/localevent"
+                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_border"
+                        android:fontFamily="sans-serif"
+                        android:inputType="text"
+                        android:paddingStart="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="12dp"
+                        android:text="Arena Expo Center Norte" />
+
+                    <TextView
+                        android:id="@+id/label5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="O local será exibido para o público."
+                        android:textColor="#AA2c2c2c"
+                        android:textSize="14dp"
+                        android:typeface="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/inputform"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Qual o nome do evento?"
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <EditText
+                        android:id="@+id/eventnome"
+                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_border"
+                        android:fontFamily="sans-serif"
+                        android:hint="digite aqui"
+                        android:inputType="text"
+                        android:paddingStart="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="12dp" />
+
+                    <TextView
+                        android:id="@+id/label4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Este nome será exibido para o público."
+                        android:textColor="#AA2c2c2c"
+                        android:textSize="14dp"
+                        android:typeface="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/inputform4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Contextualize seu público."
+                        android:textSize="16sp"
+                        android:typeface="normal" />
+
+                    <EditText
+                        android:id="@+id/descricao"
+                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_border"
+                        android:fontFamily="sans-serif"
+                        android:hint="descreva brevemente o seu evento"
+                        android:inputType="text"
+                        android:paddingStart="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="12dp" />
+
+                </LinearLayout>
+
                 <TextView
                     android:id="@+id/profile_photo_label"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:fontFamily="sans-serif"
-                    android:text="Adicione uma imagem do carro."
+                    android:text="Adicione uma capa ao evento."
                     android:textSize="16sp"
                     android:typeface="normal" />
 
@@ -100,206 +267,6 @@
 
                 </LinearLayout>
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="8dp">
-
-                    <Switch
-                        android:id="@+id/modificado"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:text="Seu carro é modificado?"
-                        app:layout_constraintBottom_toTopOf="@id/oferta"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <Switch
-                        android:id="@+id/oferta"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:text="Aceita ofertas?"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/modificado" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-                <LinearLayout
-                    android:id="@+id/inputform"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/label"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:fontFamily="sans-serif"
-                        android:text="Qual a marca?"
-                        android:textSize="16sp"
-                        android:typeface="normal" />
-
-                    <EditText
-                        android:id="@+id/eventnome"
-                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/edittext_border"
-                        android:drawableEnd="@drawable/ic_chevron_down"
-                        android:fontFamily="sans-serif"
-                        android:hint="Escolha a marca"
-                        android:inputType="phone"
-                        android:paddingStart="16dp"
-                        android:paddingLeft="16dp"
-                        android:paddingTop="12dp"
-                        android:paddingEnd="16dp"
-                        android:paddingRight="16dp"
-                        android:paddingBottom="12dp" />
-
-                    <TextView
-                        android:id="@+id/label4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:fontFamily="sans-serif"
-                        android:text="A marca será exibida para quem desejar."
-                        android:textColor="#AA2c2c2c"
-                        android:textSize="14dp"
-                        android:typeface="normal" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/inputform1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/label1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:fontFamily="sans-serif"
-                        android:text="Qual o modelo da marca?"
-                        android:textSize="16sp"
-                        android:typeface="normal" />
-
-                    <EditText
-                        android:id="@+id/localevent"
-                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/edittext_border"
-                        android:drawableEnd="@drawable/ic_chevron_down"
-                        android:fontFamily="sans-serif"
-                        android:hint="Escolha o modelo"
-                        android:inputType="phone"
-                        android:paddingStart="16dp"
-                        android:paddingLeft="16dp"
-                        android:paddingTop="12dp"
-                        android:paddingEnd="16dp"
-                        android:paddingRight="16dp"
-                        android:paddingBottom="12dp" />
-
-                    <TextView
-                        android:id="@+id/label5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:fontFamily="sans-serif"
-                        android:text="O modelo será exibido para quem desejar."
-                        android:textColor="#AA2c2c2c"
-                        android:textSize="14dp"
-                        android:typeface="normal" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/inputform3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/label3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:fontFamily="sans-serif"
-                        android:text="Qual o ano do modelo?"
-                        android:textSize="16sp"
-                        android:typeface="normal" />
-
-                    <EditText
-                        android:id="@+id/data"
-                        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/date_border"
-                        android:fontFamily="sans-serif"
-                        android:hint="--/--"
-                        android:inputType="date"
-                        android:paddingStart="12dp"
-                        android:paddingLeft="12dp"
-                        android:paddingTop="8dp"
-                        android:paddingEnd="12dp"
-                        android:paddingRight="12dp"
-                        android:paddingBottom="8dp" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/label6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:fontFamily="sans-serif"
-                    android:text="Qual o câmbio?"
-                    android:textSize="16sp"
-                    android:typeface="normal" />
-
-                <RadioGroup
-                    android:id="@+id/radiogroup"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <RadioButton
-                        android:id="@+id/radioButton2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="sans-serif"
-                        android:padding="0dp"
-                        android:text="Automático"
-                        android:textSize="14sp"
-                        android:typeface="normal" />
-
-                    <RadioButton
-                        android:id="@+id/radioButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="sans-serif"
-                        android:padding="0dp"
-                        android:text="Manual"
-                        android:textSize="14sp"
-                        android:typeface="normal" />
-
-                </RadioGroup>
-
             </LinearLayout>
 
             <LinearLayout
@@ -318,7 +285,7 @@
                     android:fontFamily="sans-serif"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
-                    android:text="adicionar novo carro"
+                    android:text="publicar evento"
                     android:textSize="16sp"
                     android:typeface="normal"
                     app:cornerRadius="8dp" />
