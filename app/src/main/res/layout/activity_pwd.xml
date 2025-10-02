@@ -135,6 +135,7 @@
                 android:typeface="normal" />
 
             <LinearLayout
+                android:id="@+id/groupbtn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="16dp"

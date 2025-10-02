@@ -26,11 +26,22 @@
             android:paddingBottom="64dp">
 
 
+            <ImageView
+                android:id="@+id/backicon4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/date_border"
+                android:padding="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_chevron_left" />
+
             <LinearLayout
                 android:id="@+id/header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="32dp"
+                android:layout_marginBottom="16dp"
                 android:orientation="vertical">
 
                 <TextView

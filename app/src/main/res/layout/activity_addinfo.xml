@@ -8,25 +8,6 @@
     android:background="@android:color/white"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/bar"
-        android:layout_width="match_parent"
-        android:layout_height="76dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:padding="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/app_name"
-            app:srcCompat="@drawable/logo" />
-
-    </RelativeLayout>
-
     <LinearLayout
         android:id="@+id/sectionscroll"
         android:layout_width="match_parent"
@@ -41,15 +22,28 @@
         android:paddingBottom="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
+
+        <ImageView
+            android:id="@+id/backicon6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/date_border"
+            android:padding="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_chevron_left" />
 
         <LinearLayout
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="16dp"
             android:orientation="vertical">
 
             <TextView

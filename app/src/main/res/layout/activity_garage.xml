@@ -27,11 +27,22 @@
             android:paddingRight="32dp"
             android:paddingBottom="64dp">
 
+            <ImageView
+                android:id="@+id/backicon7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/date_border"
+                android:padding="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_chevron_left" />
+
             <LinearLayout
                 android:id="@+id/form"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/form_border"
                 android:orientation="vertical"
                 android:padding="24dp">
@@ -136,6 +147,7 @@
                 android:id="@+id/containerlabel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
                 android:scrollbars="none">
 
                 <LinearLayout
@@ -258,6 +270,7 @@
                 android:id="@+id/container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:scrollbars="none">
 
                 <LinearLayout
@@ -628,11 +641,11 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
-                            android:id="@+id/bentleybadge1"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/jaguarbadge"
+                            android:layout_width="36dp"
                             android:layout_height="16dp"
                             android:layout_marginBottom="4dp"
-                            android:src="@drawable/bentley_logo" />
+                            android:src="@drawable/Jaguar_Logo" />
 
                         <TextView
                             android:id="@+id/namecar1_1"

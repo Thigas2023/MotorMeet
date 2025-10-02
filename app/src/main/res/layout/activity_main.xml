@@ -80,6 +80,7 @@
                 android:id="@+id/container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:scrollbars="none">
 
                 <LinearLayout
@@ -275,6 +276,7 @@
                 android:id="@+id/form"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:background="@drawable/form_border"
                 android:orientation="vertical"
                 android:padding="24dp">
@@ -459,6 +461,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:scrollbars="none">
 
                 <LinearLayout
@@ -473,17 +476,16 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:background="@drawable/card_background"
-                        tools:targetApi="31"
                         android:clipToOutline="true"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:targetApi="31">
 
                         <ImageView
                             android:id="@+id/thumb1"
                             android:layout_width="347dp"
                             android:layout_height="176dp"
                             android:background="#A50D0D"
-                            android:src="@drawable/thumb1"
-                            />
+                            android:src="@drawable/thumb1" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/body"
@@ -579,17 +581,16 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
                         android:background="@drawable/card_background"
-                        tools:targetApi="31"
                         android:clipToOutline="true"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:targetApi="31">
 
                         <ImageView
                             android:id="@+id/thumb2"
                             android:layout_width="347dp"
                             android:layout_height="176dp"
                             android:background="#FFBF00"
-                            android:src="@drawable/thumb2"
-                            />
+                            android:src="@drawable/thumb2" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/body1"
@@ -684,17 +685,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/card_background"
-                        tools:targetApi="31"
                         android:clipToOutline="true"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:targetApi="31">
 
                         <ImageView
                             android:id="@+id/thumb3"
                             android:layout_width="347dp"
                             android:layout_height="176dp"
                             android:background="#000000"
-                            android:src="@drawable/thumb3"
-                            />
+                            android:src="@drawable/thumb3" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/body2"
@@ -841,6 +841,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:scrollbars="none">
 
                 <LinearLayout
