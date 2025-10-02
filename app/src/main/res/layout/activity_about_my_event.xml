@@ -49,7 +49,7 @@
                 android:typeface="normal" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/info"
+                android:id="@+id/participante"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="16dp"
@@ -130,7 +130,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:id="@+id/inscritos2"
+                        android:id="@+id/nome"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"

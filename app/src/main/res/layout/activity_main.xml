@@ -273,7 +273,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/info"
+                android:id="@+id/participante"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -499,7 +499,7 @@
                             android:paddingBottom="24dp">
 
                             <LinearLayout
-                                android:id="@+id/info"
+                                android:id="@+id/participante"
                                 android:layout_width="wrap_content"
                                 android:layout_height="0dp"
                                 android:orientation="horizontal"
@@ -559,7 +559,7 @@
                                 android:typeface="normal"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/info" />
+                                app:layout_constraintTop_toBottomOf="@+id/participante" />
 
                             <TextView
                                 android:id="@+id/adressEvent"
