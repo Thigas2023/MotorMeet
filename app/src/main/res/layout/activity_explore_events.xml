@@ -12,7 +12,11 @@
         android:id="@+id/sectionscroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/section"
@@ -22,21 +26,10 @@
             android:orientation="vertical"
             android:paddingStart="32dp"
             android:paddingLeft="32dp"
-            android:paddingTop="32dp"
+            android:paddingTop="72dp"
             android:paddingEnd="32dp"
             android:paddingRight="32dp"
             android:paddingBottom="64dp">
-
-            <ImageView
-                android:id="@+id/backicon5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/date_border"
-                android:padding="8dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_chevron_left" />
 
             <LinearLayout
                 android:id="@+id/header6"
@@ -153,10 +146,10 @@
                                 android:fontFamily="sans-serif"
                                 android:paddingStart="12dp"
                                 android:paddingLeft="12dp"
-                                android:paddingTop="8dp"
+                                android:paddingTop="4dp"
                                 android:paddingEnd="12dp"
                                 android:paddingRight="12dp"
-                                android:paddingBottom="8dp"
+                                android:paddingBottom="4dp"
                                 android:text="Out 3"
                                 android:textColor="#802c2c2c"
                                 android:textSize="16sp"
@@ -172,10 +165,10 @@
                                 android:fontFamily="sans-serif"
                                 android:paddingStart="12dp"
                                 android:paddingLeft="12dp"
-                                android:paddingTop="8dp"
+                                android:paddingTop="4dp"
                                 android:paddingEnd="12dp"
                                 android:paddingRight="12dp"
-                                android:paddingBottom="8dp"
+                                android:paddingBottom="4dp"
                                 android:text="19:00"
                                 android:textColor="#802c2c2c"
                                 android:textSize="16sp"
@@ -259,10 +252,10 @@
                                 android:fontFamily="sans-serif"
                                 android:paddingStart="12dp"
                                 android:paddingLeft="12dp"
-                                android:paddingTop="8dp"
+                                android:paddingTop="4dp"
                                 android:paddingEnd="12dp"
                                 android:paddingRight="12dp"
-                                android:paddingBottom="8dp"
+                                android:paddingBottom="4dp"
                                 android:text="Out 2"
                                 android:textColor="#802c2c2c"
                                 android:textSize="16sp"
@@ -278,10 +271,10 @@
                                 android:fontFamily="sans-serif"
                                 android:paddingStart="12dp"
                                 android:paddingLeft="12dp"
-                                android:paddingTop="8dp"
+                                android:paddingTop="4dp"
                                 android:paddingEnd="12dp"
                                 android:paddingRight="12dp"
-                                android:paddingBottom="8dp"
+                                android:paddingBottom="4dp"
                                 android:text="23:00"
                                 android:textColor="#802c2c2c"
                                 android:textSize="16sp"
@@ -363,10 +356,10 @@
                                 android:fontFamily="sans-serif"
                                 android:paddingStart="12dp"
                                 android:paddingLeft="12dp"
-                                android:paddingTop="8dp"
+                                android:paddingTop="4dp"
                                 android:paddingEnd="12dp"
                                 android:paddingRight="12dp"
-                                android:paddingBottom="8dp"
+                                android:paddingBottom="4dp"
                                 android:text="Out 5"
                                 android:textColor="#802c2c2c"
                                 android:textSize="16sp"
@@ -382,10 +375,10 @@
                                 android:fontFamily="sans-serif"
                                 android:paddingStart="12dp"
                                 android:paddingLeft="12dp"
-                                android:paddingTop="8dp"
+                                android:paddingTop="4dp"
                                 android:paddingEnd="12dp"
                                 android:paddingRight="12dp"
-                                android:paddingBottom="8dp"
+                                android:paddingBottom="4dp"
                                 android:text="12:00"
                                 android:textColor="#802c2c2c"
                                 android:textSize="16sp"
@@ -432,5 +425,17 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/backicon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/date_border"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_chevron_left" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

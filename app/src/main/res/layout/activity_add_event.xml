@@ -10,7 +10,11 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/sectionscroll"
@@ -20,22 +24,11 @@
             android:orientation="vertical"
             android:paddingStart="32dp"
             android:paddingLeft="32dp"
-            android:paddingTop="32dp"
+            android:paddingTop="72dp"
             android:paddingEnd="32dp"
             android:paddingRight="32dp"
             android:paddingBottom="64dp">
 
-
-            <ImageView
-                android:id="@+id/backicon4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/date_border"
-                android:padding="8dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_chevron_left" />
 
             <LinearLayout
                 android:id="@+id/header"
@@ -67,7 +60,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/form"
+                android:id="@+id/info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/form_border"
@@ -103,10 +96,10 @@
                         android:inputType="date"
                         android:paddingStart="12dp"
                         android:paddingLeft="12dp"
-                        android:paddingTop="8dp"
+                        android:paddingTop="4dp"
                         android:paddingEnd="12dp"
                         android:paddingRight="12dp"
-                        android:paddingBottom="8dp" />
+                        android:paddingBottom="4dp" />
 
                 </LinearLayout>
 
@@ -315,5 +308,17 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/backicon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/date_border"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_chevron_left" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
