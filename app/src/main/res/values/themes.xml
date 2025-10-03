@@ -6,6 +6,8 @@
     </style>
 
     <style name="Theme.MotorMeet.NoActionBar" parent="Theme.MotorMeet">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="Theme.MotorMeet" parent="Base.Theme.MotorMeet" />

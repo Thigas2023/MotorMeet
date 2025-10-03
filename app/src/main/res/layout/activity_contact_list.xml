@@ -17,7 +17,7 @@
         <LinearLayout
             android:id="@+id/section"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="top"
             android:orientation="vertical"
             android:paddingStart="32dp"
@@ -61,7 +61,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/participante"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/form_border"
                 android:paddingStart="24dp"
@@ -154,7 +154,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/participante2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/form_border"
                 android:paddingStart="24dp"

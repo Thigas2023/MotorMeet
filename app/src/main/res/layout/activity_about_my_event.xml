@@ -77,16 +77,16 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/profile"
+                        android:background="@drawable/avatar"
                         android:clipToOutline="true"
+                        android:contentDescription="@string/participant_1_avatar_desc"
                         android:scaleType="centerCrop"
                         android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/avatar"
-                        tools:targetApi="31"
-                        android:contentDescription="@string/participant_1_avatar_desc" />
+                        app:srcCompat="@drawable/profile"
+                        tools:targetApi="31" />
 
                     <ImageView
                         android:id="@+id/participante2"
@@ -94,32 +94,32 @@
                         android:layout_height="40dp"
                         android:layout_marginStart="-12dp"
                         android:adjustViewBounds="true"
-                        android:background="@drawable/profile"
+                        android:background="@drawable/avatar"
                         android:clipToOutline="true"
+                        android:contentDescription="@string/participant_2_avatar_desc"
                         android:scaleType="centerCrop"
                         android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@id/participante1"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/profile_girl"
-                        tools:targetApi="31"
-                        android:contentDescription="@string/participant_2_avatar_desc" />
+                        tools:targetApi="31" />
 
                     <ImageView
                         android:id="@+id/participante3"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginStart="-12dp"
-                        android:background="@drawable/profile"
+                        android:background="@drawable/avatar"
                         android:clipToOutline="true"
+                        android:contentDescription="@string/participant_3_avatar_desc"
                         android:scaleType="centerCrop"
                         android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@id/participante2"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/profile_woman"
-                        tools:targetApi="31"
-                        android:contentDescription="@string/participant_3_avatar_desc" />
+                        tools:targetApi="31" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
